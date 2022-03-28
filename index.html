@@ -3,36 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Photographer</title>
-	<link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
 	
-	
-<header class="page-header">
-	<div class="container">
-		<div class="row page-header__row">
-			<div class="logo page-header__logo">
-				<a href="index.html">Lens.</a>
+	<header class="page-header">
+		<div class="container">
+			<div class="row page-header__row">
+				<div class="logo page-header__logo">
+					<a href="index.html">Lens.</a>
+				</div>
+				<div class="nav-toggle">
+					<span></span>
+				</div>
+				<nav class="main-nav page-header__nav">
+					<ul class="main-nav__list site-list">
+						<li class="site-list__item"><a href="#home">Home</a></li>
+						<li class="site-list__item"><a href="#about">About</a></li>
+						<li class="site-list__item"><a href="#services">Services</a></li>
+						<li class="site-list__item"><a href="#works">Works</a></li>
+						<li class="site-list__item"><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
 			</div>
-			<div class="nav-toggle">
-				<span></span>
-			</div>
-			<nav class="main-nav page-header__nav">
-				<ul class="main-nav__list site-list">
-					<li class="site-list__item"><a href="#home">Home</a></li>
-					<li class="site-list__item"><a href="#about">About</a></li>
-					<li class="site-list__item"><a href="#services">Services</a></li>
-					<li class="site-list__item"><a href="#works">Works</a></li>
-					<li class="site-list__item"><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
 		</div>
-	</div>
-</header>
-
-	
+	</header>
 <main>
 	<h1 class="visually-hidden">Photographer</h1>
 
@@ -44,7 +41,7 @@
 			</div>
 		</div>
 		<a href="#about" class="home__scroll-down scroll-down">
-			<img src="img/icons/arrow-down.svg" width="20px" alt="Scroll down">
+			<img src="img/icons/arrow-down.svg" width="20px" alt="Scroll down" >
 		</a>
 	</section>
 
@@ -163,7 +160,7 @@
 
 				<div class="works__item">
 					<div class="works__item-inner">
-						<img src="img/works/1.jpg" data-large="img/works/1.jpg" width="360" height="240" alt="Works">
+						<img src="img/works/1.jpg" data-large="img/works/1.jpg" alt="Works">
 						<div class="works__overlay overlay">
 							<h3>Wedding Photography</h3>
 						</div>
@@ -172,7 +169,7 @@
 
 				<div class="works__item">
 					<div class="works__item-inner">
-						<img src="img/works/2.jpg" data-large="img/works/2.jpg" width="360" height="240" alt="Works">
+						<img src="img/works/2.jpg" data-large="img/works/2.jpg" alt="">
 						<div class="works__overlay overlay">
 							<h3>Travel Photography</h3>
 						</div>
@@ -181,7 +178,7 @@
 
 				<div class="works__item">
 					<div class="works__item-inner">
-						<img src="img/works/3.jpg" data-large="img/works/3.jpg" width="360" height="240" alt="Works">
+						<img src="img/works/3.jpg" data-large="img/works/3.jpg" alt="">
 						<div class="works__overlay overlay">
 							<h3>Travel Photography</h3>
 						</div>
@@ -190,7 +187,7 @@
 
 				<div class="works__item">
 					<div class="works__item-inner">
-						<img src="img/works/4.jpg" data-large="img/works/4.jpg" width="360" height="240" alt="Works">
+						<img src="img/works/4.jpg" data-large="img/works/4.jpg" alt="">
 						<div class="works__overlay overlay">
 							<h3>Portrait Photography</h3>
 						</div>
@@ -199,7 +196,7 @@
 	
 				<div class="works__item">
 					<div class="works__item-inner">
-						<img src="img/works/5.jpg" data-large="img/works/5.jpg" width="360" height="240" alt="Works">
+						<img src="img/works/5.jpg" data-large="img/works/5.jpg" alt="">
 						<div class="works__overlay overlay">
 							<h3>Wedding Photography</h3>
 						</div>
@@ -208,7 +205,7 @@
 
 				<div class="works__item">
 					<div class="works__item-inner">
-						<img src="img/works/6.jpg" data-large="img/works/6.jpg" width="360" height="240" alt="Works">
+						<img src="img/works/6.jpg" data-large="img/works/6.jpg" alt="">
 						<div class="works__overlay overlay">
 							<h3>Portrait Photography</h3>
 						</div>
@@ -292,11 +289,11 @@
 
 </main>
 
-	<section>
+<section>
 	<div class="lightbox">
 		<div class="img-box">
 			<div class="lightbox__close">&times;</div>
-			<img src="img/works/1.webp" class="lightbox__img" alt="img">
+			<img src="img/works/1.jpg" class="lightbox__img" alt="img">
 			<div class="lightbox__caption">
 				<div class="lightbox__category">
 				</div>
@@ -315,18 +312,15 @@
 	</div>
 </section>
 
-<footer>
-	<p class="copyright">&copy; 2022</p>
-</footer>
+	<footer>
+		<p class="copyright">&copy; 2022</p>
+	</footer>
 
-<div class="preloader">
-	<div class="loader"></div>
-</div>
+	<div class="preloader">
+		<div class="loader"></div>
+	</div>
 
-
-
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="js/main.js"></script>
-
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
